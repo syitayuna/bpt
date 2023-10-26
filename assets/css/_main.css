@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Quicksand", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+}
+
+body {
+    background-color: #fff;
+    
+}
+
+/* NAVBAR */
+.navbar {
+    font-size: 18px;
+    font-family: "Quicksand", sans-serif;
+    padding: 10px;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0;
+    outline: none;
+    background-color: #ff5733;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.dropdown-item {
+    position: relative;
+}
+
+.navbar-brand {
+    width: 15%;
+}
+
+.navbar-toggler .material-icons {
+    color: white; /* Warna ikon hamburger */
+}
+
+.navbar-toggler:hover {
+    background-color: #ff5733; /* Warna latar belakang ikon hamburger saat hover */
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Warna teks menu */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #efefef; /* Warna teks menu saat hover */
+}
+
+.dropdown-menu {
+    background-color: #1976d2; /* Warna latar belakang dropdown */
+}
+
+.dropdown-menu .dropdown-item {
+    color: white; /* Warna teks dropdown item */
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #1565c0; /* Warna latar belakang dropdown item saat hover */
+}
+
+/* BANNER */
+.banner {
+    font-family: "Quicksand", sans-serif;
+}
+
+/* CONTENT */
+
+
+.container {
+    font-family: "Quicksand", sans-serif;
+}
+
+.accordion-item {
+    font-size: 15px;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+}
+
+/* FOOTER */
+.footer {
+    font-size: 15px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.profile-card {
+    background-color: #f8f9fa;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+section {
+    margin-bottom: 30px; /* Tambahkan margin bawah sesuai kebutuhan */
+}
+
+.img-hover:hover {
+    /* Efek transisi saat hover */
+    transform: scale(1.05); /* Contoh: memperbesar gambar 5% saat hover */
+    transition: transform 0.3s ease; /* Waktu transisi dan efek easing */
+}
+
+/* SHADOW AND ICON STYLES */
+.shadow,
+.subscription-wrapper {
+    box-shadow: 0px 15px 39px 0px rgba(8, 18, 109, 0.1) !important;
+}
+
+.icon-primary {
+    color: #062caf;
+}
+
+.icon-bg-circle {
+    position: relative;
+}
+
+.icon-lg {
+    font-size: 50px;
+}
+
+.icon-bg-circle::before {
+    z-index: 1;
+    position: relative;
+}
+
+.icon-bg-primary::after {
+    background: #062caf !important;
+}
+
+.icon-bg-circle::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -35px;
+    left: 15px;
+    border-radius: 30%;
+    background: inherit;
+    opacity: 0.1;
+}
+
+.icon-bg-purple::after {
+    background: #7952f5;
+}
+
+.icon-purple {
+    color: #7952f5;
+}
+
+.icon-cyan {
+    color: #02d0a1;
+}
+
+.icon-bg-cyan::after {
+    background: #02d0a1;
+}
+
+.icon-bg-red::after {
+    background: #ff4949;
+}
+
+.icon-red {
+    color: #ff4949;
+}
+
+.icon-bg-green::after {
+    background: #66cc33;
+}
+
+.icon-green {
+    color: #66cc33;
+}
+
+.icon-bg-orange::after {
+    background: #ff7c17;
+}
+
+.icon-orange {
+    color: #ff7c17;
+}
+
+.icon-bg-blue::after {
+    background: #3682ff;
+}
+
+.icon-blue {
+    color: #3682ff;
+}
+
+.icon-bg-yellow::after {
+    background: #FFFF00;
+}
+
+.icon-yellow {
+    color: #FFFF00;
+}
