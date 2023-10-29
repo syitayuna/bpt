@@ -9,19 +9,29 @@
         <div class="row no-gutters">
             <div class="col-md-8">
                 <div class="card-body">
-                    <h5 class="card-title"><?= $user['nama']; ?></h5>
-                    <p class="card-text"><?= $user['email']; ?></p>
-                    <p class="card-text"><large class="text-muted">Jadi member sejak: <br><b><?= date('d F Y', $user['tanggal_input']); ?></b></large></p>
+                    <h5 class="card-title">
+                        <?= $user['nama']; ?>
+                    </h5>
+                    <p class="card-text">
+                        <?= $user['email']; ?>
+                    </p>
+                    <p class="card-text">
+                        <large class="text-muted">Jadi member sejak: <br>
+                            <b>
+                                <?= date('d F Y', strtotime($user['tanggal_input'])); ?>
+                            </b>
+                        </large>
+                    </p>
                 </div>
                 <div class="btn btn-secondary ml-3 my-3">
-                    <a href="<?= base_url('user/ubahprofil'); ?>" class="text text-white"><i class="fas fa-user-edit"></i> Ubah Profil</a>
+                    <a href="<?= base_url('user/ubahprofil'); ?>" class="text text-white">
+                        <i class="fas fa-user-edit"></i> Ubah Profil
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-
 </div>
 <!-- /.container-fluid -->
-
 </div>
 <!-- End of Main Content -->

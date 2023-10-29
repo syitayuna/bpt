@@ -3,7 +3,7 @@
 		width: 100%;
 		height: 700px;
 		background-size: cover;
-		background-image: url('<?= base_url('assets/img/kpt.JPG'); ?>');
+		background-image: url('<?= base_url('assets/img/banner/kpt_shadow.jpg'); ?>');
 		background-attachment: fixed;
 		color: #fff;
 		display: flex;
