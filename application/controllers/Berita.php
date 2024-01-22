@@ -21,7 +21,6 @@ class Berita extends CI_Controller
 		$data["title"] = "Data Berita ";
 		$data["class"] = "Berita";
 
-
 		//ambil fungsi getAll 
 
 		$this->input->get('kategori');
@@ -106,8 +105,6 @@ class Berita extends CI_Controller
 	public function edit($id_berita = null)
 	{
 		$this->auth->cek_login();
-
-
 
 		$Berita = $this->ModelAllBerita;
 		$validation = $this->form_validation;

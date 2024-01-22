@@ -5,7 +5,6 @@ class ModelAllGaleri extends CI_Model
 {
 	private $table = 'gambar';
 
-
 	public function rules()
 	{
 		return [

@@ -5,7 +5,6 @@ class ModelDokumen extends CI_Model
 {
 	private $table = 'dokumen';
 
-
 	public function rules()
 	{
 		return [

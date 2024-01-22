@@ -18,7 +18,7 @@
                     <p class="card-text">
                         <large class="text-muted">Jadi member sejak: <br>
                             <b>
-                                <?= date('d F Y', strtotime($user['tanggal_input'])); ?>
+                                <?= date('d F Y', strtotime($user['created_at'])); ?>
                             </b>
                         </large>
                     </p>

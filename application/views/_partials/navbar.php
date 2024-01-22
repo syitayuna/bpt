@@ -26,8 +26,6 @@
 	<link href="<?= base_url('assets/css/_main.css') ?>" rel="stylesheet">
 
 
-
-
 	<!-- jQuery 3.6.0 -->
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<!-- Popper.js 2.11.8 -->

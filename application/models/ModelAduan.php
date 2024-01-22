@@ -75,7 +75,7 @@ class ModelAduan extends CI_Model
         return $query->result();
     }
 
-    //menyimpan data 
+    //menyimpan data aduan
     public function save()
     {
         $data = array(

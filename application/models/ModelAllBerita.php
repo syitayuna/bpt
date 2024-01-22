@@ -5,7 +5,6 @@ class ModelAllBerita extends CI_Model
 {
 	private $table = 'berita';
 
-
 	public function rules()
 	{
 		return [
@@ -55,8 +54,6 @@ class ModelAllBerita extends CI_Model
 		$query = $this->db->get();
 		return $query->result();
 	}
-
-	//menampilkan semua data berita
 	public function getAll()
 	{
 		$this->db->from($this->table);
@@ -65,6 +62,8 @@ class ModelAllBerita extends CI_Model
 		$query = $this->db->get();
 		return $query->result();
 	}
+
+	//menampilkan semua data berita
 
 	//menampilkan semua data berita
 	public function getLimit()
